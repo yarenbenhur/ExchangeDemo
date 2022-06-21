@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExchange", "DirectExc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicExchange", "TopicExchange\TopicExchange.csproj", "{3E297F8E-92B9-4D61-A574-2A278EC5CD51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaderExchange", "HeaderExchange\HeaderExchange.csproj", "{9872E2BA-63B9-462A-A42C-BE472E583E2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3E297F8E-92B9-4D61-A574-2A278EC5CD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E297F8E-92B9-4D61-A574-2A278EC5CD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E297F8E-92B9-4D61-A574-2A278EC5CD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9872E2BA-63B9-462A-A42C-BE472E583E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9872E2BA-63B9-462A-A42C-BE472E583E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9872E2BA-63B9-462A-A42C-BE472E583E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9872E2BA-63B9-462A-A42C-BE472E583E2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

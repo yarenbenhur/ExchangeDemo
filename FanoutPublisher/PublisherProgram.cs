@@ -20,27 +20,27 @@ namespace FanoutPublisher
                 Password = "guest"
             };
             IConnection conn = factory.CreateConnection();
-            IModel chanel = conn.CreateModel();
+            IModel channel = conn.CreateModel();
 
-            chanel.ExchangeDeclare("ex.fanout", "fanout", true, false, null);
+            channel.ExchangeDeclare("ex.fanout", "fanout", true, false, null);
 
-            chanel.QueueDeclare("myqueue1", true, false, false, null);
-            chanel.QueueDeclare("myqueue2", true, false, false, null);
+            channel.QueueDeclare("myqueue1", true, false, false, null);
+            channel.QueueDeclare("myqueue2", true, false, false, null);
 
-            chanel.QueueBind("myqueue1", "ex.fanout", "");
-            chanel.QueueBind("myqueue2", "ex.fanout", "");
+            channel.QueueBind("myqueue1", "ex.fanout", "");
+            channel.QueueBind("myqueue2", "ex.fanout", "");
 
-            chanel.BasicPublish("ex.fanout","",null,Encoding.UTF8.GetBytes("Message 1"));
-            chanel.BasicPublish("ex.fanout", "", null, Encoding.UTF8.GetBytes("Message 2"));
+            channel.BasicPublish("ex.fanout","",null,Encoding.UTF8.GetBytes("Message 1"));
+            channel.BasicPublish("ex.fanout", "", null, Encoding.UTF8.GetBytes("Message 2"));
 
             Console.WriteLine("Press a key to exit.");
             Console.ReadKey();
 
-            chanel.QueueDelete("my.queue1");
-            chanel.QueueDelete("my.queue2");
-            chanel.ExchangeDelete("ex.fanout");
+            channel.QueueDelete("my.queue1");
+            channel.QueueDelete("my.queue2");
+            channel.ExchangeDelete("ex.fanout");
 
-            chanel.Close();
+            channel.Close();
             conn.Close();
 
         }
