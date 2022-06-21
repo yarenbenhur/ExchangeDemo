@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicExchange", "TopicExcha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaderExchange", "HeaderExchange\HeaderExchange.csproj", "{9872E2BA-63B9-462A-A42C-BE472E583E2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultDemo", "..\..\..\Desktop\Default_SourceCode\DefaultDemo.csproj", "{F667E095-B206-4B03-BA0C-A4FB07DD22EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9872E2BA-63B9-462A-A42C-BE472E583E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9872E2BA-63B9-462A-A42C-BE472E583E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9872E2BA-63B9-462A-A42C-BE472E583E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F667E095-B206-4B03-BA0C-A4FB07DD22EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F667E095-B206-4B03-BA0C-A4FB07DD22EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F667E095-B206-4B03-BA0C-A4FB07DD22EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F667E095-B206-4B03-BA0C-A4FB07DD22EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
