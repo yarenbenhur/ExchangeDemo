@@ -7,7 +7,7 @@ using RabbitMQ.Client;
 
 namespace DirectExchange
 {
-    class Program
+    class DirectProgram
     {
         static IConnection conn;
         static IModel channel;

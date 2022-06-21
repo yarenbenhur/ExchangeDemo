@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{348A45D9-AAF0-408F-B785-CB3C4036E95F}</ProjectGuid>
+    <ProjectGuid>{3E297F8E-92B9-4D61-A574-2A278EC5CD51}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DirectExchange</RootNamespace>
-    <AssemblyName>DirectExchange</AssemblyName>
+    <RootNamespace>TopicExchange</RootNamespace>
+    <AssemblyName>TopicExchange</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DirectProgram.cs" />
+    <Compile Include="TopicProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
