@@ -8,7 +8,9 @@ using RabbitMQ.Client.Events;
 
 namespace FanoutConsumer
 {
-     class ConsumerProgram
+    //sends all the messages it receives to all the queues that are bound to it. 
+    //ignores the routing information and does not perform any filtering.
+    class ConsumerProgram
     {
         static IConnection conn;
         static IModel channel;
